@@ -1,0 +1,89 @@
+.article-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toc-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.toc-card {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60%;
+
+  background-color: rgba(216, 225, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.toc-card .material-icons {
+  font-size: 1.5rem;
+  vertical-align: -0.4rem;
+}
+
+.toc-card .delete {
+  position: absolute;
+  right: 1.3rem;
+  top: 1.3rem;
+}
+
+.toc-card .card-content {
+  max-height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1024px) {
+  .toc-button {
+    right: 15%;
+  }
+  .toc-card {
+    margin-left: -5rem;
+    width: 25%;
+    right: 15%;
+  }
+}
+
+.toc-content li a {
+  display: list-item;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+  transition: background-color 0.3s;
+  padding: 5px;
+  padding-left: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.toc-content li a:hover {
+  color: black;
+  background-color: rgb(170, 183, 228);
+}
+
+.toc-content ol {
+  list-style-type: none;
+  border-inline-start: 2px solid rgb(168, 168, 168);
+  padding-inline-start: 0.5rem;
+  margin-inline-start: 0.5rem;
+}
+
+.toc-card ::-webkit-scrollbar {
+  width: 7px;
+}
+.toc-card ::-webkit-scrollbar-track {
+  background: #f9fcff;
+  border-radius: 10px;
+}
+.toc-card ::-webkit-scrollbar-thumb {
+  background: #6b7083;
+  border-radius: 10px;
+}
+.toc-card ::-webkit-scrollbar-thumb:hover {
+  background: #0d1857;
+}
