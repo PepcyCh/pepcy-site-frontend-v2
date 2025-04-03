@@ -1,4 +1,4 @@
-import heroAvatar from "/avatar.jpg"
+import heroAvatar from "/avatar.png"
 import "./home.css"
 
 export default function Home() {

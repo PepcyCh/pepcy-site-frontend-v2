@@ -15,7 +15,8 @@ export default function About() {
           <li>ペップジ、パップジ</li>
         </ul>
         <p>已退役 OIer（2016.4-2017.7）、*CPCer（2018.7-2019.12）。</p>
-        <p>已在浙江大学读完 CS 本科（2018-2022），现在浙江大学 CAD & CG 读 CS 硕士（2022-2025）。</p>
+        <p>已在浙江大学读完 CS 本科（2018-2022），在浙江大学 CAD & CG 读完 CS 硕士（2022-2025）。</p>
+        <p>现在游戏公司工作，居住上海。</p>
         </div>
         </div>
       </div>
@@ -26,7 +27,7 @@ export default function About() {
           <p>技能</p>
         </div>
         <div className="message-body content">
-        <p>主要使用 C++，以及当高级计算器的 Python，曾一度沉迷 Rust。</p>
+        <p>主要使用 C++，以及当高级计算器的 Python，和为了 Unity 使用的 C#，曾一度沉迷 Rust。</p>
         <p>比较熟悉 Vulkan，相比于 OpenGL 等其他图形 API。</p>
         <p>Unity / UE 目前熟练度不算高。</p>
         </div>

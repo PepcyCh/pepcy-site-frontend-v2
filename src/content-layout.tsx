@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router"
-import heroAvatar from "/avatar.jpg"
+import heroAvatar from "/avatar.png"
 import "./content-layout.css"
 
 export default function ContentLayout() {
